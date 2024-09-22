@@ -1,2 +1,44 @@
+<!DOCTYPE html>
 <html>
+<head>
+    <title>Schedule page</title>
+</head>
+<body>
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav>
+            <ol>
+                <li>
+                    <a href="file:///C:/Users/yassmine/Desktop/TechCon_HTML/techcon_website/about.html">about.html</a>
+                </li>
+                <li>
+                    <a href="file:///C:/Users/yassmine/Desktop/TechCon_HTML/techcon_website/schedule.html">schedule</a>
+                </li>
+                <li>
+                    <a href="file:///C:/Users/yassmine/Desktop/TechCon_HTML/techcon_website/register.html">register</a>
+                </li>
+                <li>
+                    <a href="file:///C:/Users/yassmine/Desktop/TechCon_HTML/techcon_website/contact.html">contact</a>
+                </li>
+                <li>
+                    <a href="file:///C:/Users/yassmine/Desktop/TechCon_HTML/techcon_website/index.html">home</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <form action="/submit-form" method="post">
+            <label for="username">Username (4-8 characters):</label>
+            <input type="text" id="username" name="username" required minlength="4" maxlength="8" placeholder="Username">
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@domain.com">
+            <input type="checkbox" id="1" name="terms and conditions"><p>agree to terms and conditions</p>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        copyright TechCon 2024
+    </footer>
+</body>
 </html>
